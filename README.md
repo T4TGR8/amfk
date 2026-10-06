@@ -1,4 +1,4 @@
-Telepítés: wp-content/plugins mappában elhelyezni a hetvegi-kalandmento bővitményt vagy a beépített telepítőt használva.
+Telepítés: wp-content/plugins/hetvegi-kalandmento mappában elhelyezni a repo tartalmát vagy a beépített telepítőt használva.
 Indítás: Plugin bekapcsolása, majd a hostnak megfelelően a beállítások oldal (/wp-admin/admin.php?page=hkm-settings) kitöltése az apival ahonnan a json érkezik (/wp-json/hetvegi-kalandmento/v1/programs). Ezután használható a shortcode a szerkesztőből.
 
 A programs.json elérhető Wordpress api-n keresztül (/wp-json/hetvegi-kalandmento/v1/programs), én úgy gondoltam hogy mivel a shortcode php oldalon dolgozza fel az adatokat és nem volt igény frontenden a dinamukis frissítésre így, mint egy külső api-ként beköthető elem lett. Ebben a felállásban ez ugye nem a leggyorsabb megoldás de mint külső rendszer használatának szimulációjaként gondoltam.
